@@ -31,7 +31,7 @@ const user_create = async (req, res)=>{
 		})
 	
 		await user.save()
-	
+
 		return res.status(201).json({message:"user created!"})
 		
 	} catch (error) {
