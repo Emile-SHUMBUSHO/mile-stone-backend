@@ -62,7 +62,7 @@ app.use(_express.default.urlencoded({
   extended: true
 })); // Connect to MongoDB database
 
-const dbURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@node-applications.fe4au.mongodb.net/node-tutorial?retryWrites=true&w=majority`;
+const dbURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@ora-rwanda-construction.ycnmxl1.mongodb.net/?retryWrites=true&w=majority`;
 
 _mongoose.mongoose.connect(dbURI, {
   useNewUrlParser: true,
